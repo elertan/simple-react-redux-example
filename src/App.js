@@ -39,8 +39,8 @@ export default connect(
   // can be used to send out actions which the reducers will pick up
   // to potentially modify the state.
   // In our case we pass the dispatch function to another function we made
-  // to create easily useable functions from within our component.
-  // So we easily send out a 'ADD_NUMBER' action without having to write the entire
+  // to create easily usable functions from within our component.
+  // So we easily send out an 'ADD_NUMBER' action without having to write the entire
   // dispatch call here again.
   dispatch => ({
     numberActions: actionsCreator(dispatch)
